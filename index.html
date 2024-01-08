@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Of CSS</title>
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ExternalCSS: Link external CSS File with HTML File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS: Using style tag in head -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: red;  
+        }
+
+        #heading{
+            color: yellow;
+            background-color: black;
+        }
+        .heading{
+            color: green;
+        }
+        div .sub h1 {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS: Using style attribute in tag -->
+    <h1>hello</h1>
+    <h1 class="heading">hello</h1>
+    <h1 id="heading">hello</h1>
+    <div class="container">hgytf
+        <div class="sub">
+            <h1>heyyy</h1>
+        </div>
+    </div>
+</body>
+</html>
